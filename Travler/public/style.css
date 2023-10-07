@@ -1,0 +1,98 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(7, 0, 0);
+    color: rgb(189, 189, 189);
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+#title{
+    align-self: center;
+    width: 80%;
+    text-align: center;
+    font-style: italic;
+    margin: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    border-bottom: solid 3px white;
+    border-top: solid 3px white;
+}
+
+#footer{
+    margin: 10px;
+    text-align: center;
+    border-top: solid 3px white;
+}
+
+.resume{
+    margin: 20px;
+    border-top: solid 1px white;
+    border-bottom: solid 1px white;
+    width: 50%;
+}
+
+.City{
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    border-top: 1px dashed white ;
+    border-bottom: 1px dashed white;
+    justify-content: space-between;
+}
+
+.City div:nth-of-type(1){
+    display: grid;
+    place-content: center;
+    width: 40%;
+}
+
+.img{
+    margin: 20px;
+    width: 40%;
+}
+
+.button{
+    align-items: end;
+    background-color: #001f18;
+    color: white;
+    border-radius: 5px;
+    border: #001f18;
+    height: 40px;
+    width: 120px;
+    margin: 30px;
+}
+
+.button:hover{
+    border-radius: 10px;
+    transition: .2s;
+    background-color: #005e48;
+    cursor: pointer;
+}
+
+.text{
+    font-weight: 900;
+}
+
+.resume h1{
+    font-size: 200%;
+}
+
+.resume p{
+    font-size: 150%;
+}
+
+/*
+                 $$$$$$\  $$\                                                        $$$$$$\ $$\    $$\ 
+                $$  __$$\ $$ |                                                       \_$$  _|$$ |   $$ |
+                $$ /  \__|$$$$$$$\   $$$$$$\   $$$$$$\   $$$$$$\  $$$$$$$\             $$ |  $$ |   $$ |
+                $$ |      $$  __$$\  \____$$\ $$  __$$\ $$  __$$\ $$  __$$\  $$$$$$\   $$ |  \$$\  $$  |
+                $$ |      $$ |  $$ | $$$$$$$ |$$ |  \__|$$ /  $$ |$$ |  $$ | \______|  $$ |   \$$\$$  / 
+                $$ |  $$\ $$ |  $$ |$$  __$$ |$$ |      $$ |  $$ |$$ |  $$ |           $$ |    \$$$  /  
+                \$$$$$$  |$$ |  $$ |\$$$$$$$ |$$ |      \$$$$$$  |$$ |  $$ |         $$$$$$\    \$  /   
+                 \______/ \__|  \__| \_______|\__|       \______/ \__|  \__|         \______|    \_/    
+*/
