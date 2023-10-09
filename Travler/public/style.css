@@ -101,14 +101,7 @@ body{
 }
 
 .dark:hover{
-    transition: .2s;
-    margin: 10px;
     cursor: pointer;
-    padding: 5px;
-    border: solid 2px;
-    border-color: white;
-    border-radius: 8px;
-
 }
 /*
                  $$$$$$\  $$\                                                        $$$$$$\ $$\    $$\ 
