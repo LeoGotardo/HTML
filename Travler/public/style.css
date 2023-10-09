@@ -29,6 +29,10 @@ body{
     border-top: solid 3px white;
 }
 
+#theme{
+    display: flex;
+}
+
 .resume{
     margin: 20px;
     border-top: solid 1px white;
@@ -86,6 +90,26 @@ body{
     font-size: 150%;
 }
 
+.dark{
+    background-color: rgb(7, 0, 0);
+    justify-content: flex-end;
+    align-items: end;
+    height: auto;
+    width: auto;
+    border: 0px;
+    margin: 10px;
+}
+
+.dark:hover{
+    transition: .2s;
+    margin: 10px;
+    cursor: pointer;
+    padding: 5px;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 8px;
+
+}
 /*
                  $$$$$$\  $$\                                                        $$$$$$\ $$\    $$\ 
                 $$  __$$\ $$ |                                                       \_$$  _|$$ |   $$ |
