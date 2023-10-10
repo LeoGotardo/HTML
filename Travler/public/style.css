@@ -4,7 +4,7 @@
 
 body{
     background-color: rgb(7, 0, 0);
-    color: rgb(189, 189, 189);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     padding: 0 5%;
@@ -16,6 +16,7 @@ body{
     text-align: center;
     font-style: italic;
     margin: 50px;
+    margin-bottom: 150px;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 3px;
     font-size: 1.5rem;
@@ -33,6 +34,10 @@ body{
     display: flex;
 }
 
+.texts{
+    flex-direction: column;
+}
+
 .resume{
     margin: 20px;
     border-top: solid 1px white;
@@ -42,28 +47,33 @@ body{
 
 .City{
     display: flex;
-    margin-top: 150px;
-    margin-bottom: 100px;
-    border-top: 1px dashed white ;
-    border-bottom: 1px dashed white;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    border-top: 1px solid white ;
+    border-bottom: 1px solid white;
     justify-content: space-between;
+    border-radius: 10px;
+    transition: .5s;
+    color:rgb(155, 155, 155);
+    height: 400px;
+    
 }
 
 .City div:nth-of-type(1){
-    display: grid;
-    place-content: center;
-    width: 40%;
+    display: flex;
+    object-fit: cover;
+    width: 50%;
 }
 
 .img{
     margin: 20px;
-    width: 40%;
+    width: 100%;
 }
 
 .button{
     align-items: end;
-    background-color: #001f18;
-    color: white;
+    background-color: #003025;
+    color: rgb(155, 155, 155);
     border-radius: 5px;
     border: #001f18;
     height: 40px;
@@ -73,6 +83,7 @@ body{
 
 .button:hover{
     border-radius: 10px;
+    color: white;
     transition: .2s;
     background-color: #005e48;
     cursor: pointer;
@@ -102,6 +113,13 @@ body{
 
 .dark:hover{
     cursor: pointer;
+}
+
+.City:hover{
+    background-color: rgb(15, 15, 15);
+    transition: .5s;
+    box-shadow: 0px 0px 30px rgb(255, 255, 255);
+    color: white;
 }
 /*
                  $$$$$$\  $$\                                                        $$$$$$\ $$\    $$\ 
