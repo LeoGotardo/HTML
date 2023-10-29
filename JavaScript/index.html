@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+
+<body>
+    <div id="theme">
+        <img id="logo" src="img/logo.png">
+    </div>
+    
+    <div id="title">
+        <h1>Resolução das atividades...</h1>
+    </div>    
+
+
+    <div class="Res">
+        <div class="code">
+            <pre>
+function somaDivisores(x) {
+    let soma = 1;
+    for (let i = 2; i < x; i++) {
+        if (x % i === 0) {
+            soma += i;
+        }
+   }
+        return soma;
+}
+                  
+const x = 8;
+console.log(somaDivisores(x)); // 7
+                </pre>
+        </div>
+
+        <div class="resume">
+
+            <div class="texts">
+                <h1 class="text">Soma dos divisores de um número</h1>
+                <p class="text"> Escreva um programa que mostre a soma de todos os divisores de um dado número X. Um
+                    divisor é qualquer número menor que X cujo resto da divisão é igual a 0.
+                    Exemplo: Para X = 8, o resultado é 7, pois 7 = 1 + 2 + 4.</p>
+            </div>
+
+            <div class="buttons">
+                <button class="button">Run!</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="Res">
+        <div class="code">
+            <pre>
+function distanciaEuclidiana(x1, y1, x2, y2) {
+    return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    }
+                  
+    const x1 = 1;
+    const y1 = 2;
+    const x2 = 3;
+    const y2 = 4;
+    console.log(distanciaEuclidiana(x1, y1, x2, y2)); // 5
+                </pre>
+        </div>
+
+        <div class="resume">
+
+            <div class="texts">
+                <h1 class="text">Distância euclidiana entre dois pontos</h1>
+                <p class="text">Escreva um programa que mostre a soma de todos os divisores de um dado número X. Um
+                    divisor é qualquer número menor que X cujo resto da divisão é igual a 0.
+                    Exemplo: Para X = 8, o resultado é 7, pois 7 = 1 + 2 + 4.</p>
+            </div>
+
+            <div class="buttons">
+                <button class="button">Run!</button>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="footer">
+        <a href="#theme"><button class="button" style="width: 200px; height: 50px;">Top!</button></a>
+        <p class="Credits">Made by: Yours supreme leader</p>
+    </div>
+</body>
+
+</html>
